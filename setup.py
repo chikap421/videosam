@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-
+# The setup
 setup(
     name="VideoSAM",
     version="0.1.0",
@@ -37,3 +37,4 @@ setup(
     ],
     include_package_data=True,
 )
+
