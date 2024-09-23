@@ -1,0 +1,17 @@
+git+https://github.com/facebookresearch/segment-anything.git
+git+https://github.com/huggingface/transformers.git
+datasets
+monai
+patchify
+tifffile
+matplotlib
+scipy
+seaborn
+scikit-learn
+peft
+numpy
+torch
+h5py
+tqdm
+optuna
+pillow
