@@ -21,8 +21,8 @@ def predict_composite_frame(model, inputs):
     return (probabilities > 0.5).astype(np.uint8)
 
 def main():
-    image_dir = "composite_images/"
-    mask_dir = "composite_masks/"
+    image_dir = "data/train/"
+    mask_dir = "data/train_mask/"
     output_dir = "composite_predictions/"
 
     os.makedirs(output_dir, exist_ok=True)

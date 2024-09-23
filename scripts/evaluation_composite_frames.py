@@ -30,8 +30,8 @@ def evaluate_composite_frames(model, processor, images, masks):
     return metrics
 
 def main():
-    image_dir = "eval_composite_images/"
-    mask_dir = "eval_composite_masks/"
+    image_dir = "data/test/"
+    mask_dir = "data/test/"
 
     images, masks = load_composite_evaluation_data(image_dir, mask_dir)
 
