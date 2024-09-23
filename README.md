@@ -37,23 +37,16 @@ Key features include:
 
 ---
 
-## Installation
+## Data Location
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/chikap421/videosam.git
-    cd videosam
-    ```
+All training and testing datasets for VideoSAM are located in the following directories within the project structure:
 
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+- **Training Data**: `data/train/`
+    - You can find the split training dataset files in this directory, named as `train_image_masks_part_aa`, `train_image_masks_part_ab`, etc.
+- **Testing Data**: `data/test/`
+    - Similarly, the split testing dataset files are located in this directory, with the filenames following the same convention, `test_image_masks_part_aa`, `test_image_masks_part_ab`, etc.
 
-3. Set up the environment:
-    ```bash
-    python setup.py install
-    ```
+To reconstruct the data from its split files, follow the instructions below.
 
 ---
 
@@ -72,6 +65,26 @@ To reassemble files that were split into smaller parts, follow these steps:
     ```
 
 Apply the same process for test data or any other split zip files.
+
+---
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/chikap421/videosam.git
+    cd videosam
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Set up the environment:
+    ```bash
+    python setup.py install
+    ```
 
 ---
 
