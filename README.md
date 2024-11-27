@@ -111,3 +111,19 @@ The **inference pipeline** for VideoSAM was designed to evaluate its performance
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ![MIT License](https://img.shields.io/badge/📜%20License-lightgrey?style=for-the-badge&logo=open-source-initiative&logoColor=black)
+
+## 🖋️ Citations
+
+If you use this repository in your research, please cite:
+
+```bibtex
+@misc{maduabuchi2024videosamlargevisionfoundation,
+      title={VideoSAM: A Large Vision Foundation Model for High-Speed Video Segmentation}, 
+      author={Chika Maduabuchi and Ericmoore Jossou and Matteo Bucci},
+      year={2024},
+      eprint={2410.21304},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.21304}, 
+}
+```
